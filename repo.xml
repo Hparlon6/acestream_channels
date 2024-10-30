@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.acestream.channels" name="Repositorio Acestream Channels" version="1.0.0">
+    <extension point="xbmc.addon.repository" name="Repositorio Acestream Channels">
+        <info>
+            <provides>video</provides>
+        </info>
+        <addon id="plugin.video.acestream_channels" version="1.0.0" sig="xxxxxxxxxxxxxxxx">
+            <requires>
+                <import addon="xbmc.addon" version="12"/>
+            </requires>
+            <extension point="xbmc.addon.video">
+                <provides>video</provides>
+            </extension>
+        </addon>
+    </extension>
+</addon>
