@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.acestream.channels" name="Repositorio Acestream Channels" version="1.0.0">
-    <extension point="xbmc.addon.repository" name="Repositorio Acestream Channels">
+<addon id="repository.mis-canales-acestream" name="Mi Repositorio de Canales AceStream" version="1.0.0">
+    <extension point="xbmc.addon.repository" name="Mi Repositorio de Canales AceStream">
         <info>
             <provides>video</provides>
         </info>
@@ -11,6 +11,7 @@
             <extension point="xbmc.addon.video">
                 <provides>video</provides>
             </extension>
+            <addon>https://raw.githubusercontent.com/tu-usuario/mi-repositorio-acestream/main/plugin.video.acestream_channels.zip</addon>
         </addon>
     </extension>
 </addon>
