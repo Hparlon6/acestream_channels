@@ -11,7 +11,7 @@
             <extension point="xbmc.addon.video">
                 <provides>video</provides>
             </extension>
-            <addon>https://raw.githubusercontent.com/Hparlon6/acestream_channels/main/plugin.video.acestream_channels.zip</addon>
+            <addon>https://github.com/Hparlon6/acestream_channels/raw/refs/heads/main/plugin.video.acestream_channels.zip</addon>
         </addon>
     </extension>
 </addon>
