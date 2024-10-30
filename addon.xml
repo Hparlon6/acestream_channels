@@ -16,8 +16,8 @@
   <extension point="xbmc.addon.repository">   
 
     <info compressed="false">
-      <addon id="plugin.video.tuaddon" version="1.0.0">
-        <zip>addon.zip</zip>
+      <addon id="plugin.video.plugin.video.acestream_channels" version="1.0.0">
+        <zip>plugin.video.acestream_channels.zip</zip>
       </addon>
     </info>
   </extension>
