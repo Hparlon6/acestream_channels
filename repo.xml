@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.acestream_channels.zip" name="Repository of Canales AceStream" version="1.0.0">
-    <extension point="xbmc.addon.repository" name="Acestream Channels Repository">
-        <info>
-            <provides>video</provides>
-        </info>
-        <addon id="plugin.video.acestream_channels.zip" version="1.0.0" sig="xxxxxxxxxxxxxxxx">
-            <requires>
-                <import addon="xbmc.addon" version="12"/>
-            </requires>
-            <extension point="xbmc.addon.video">
-                <provides>video</provides>
-            </extension>
-            <addon>https://github.com/Hparlon6/acestream_channels/raw/refs/heads/main/plugin.video.acestream_channels.zip</addon>
-        </addon>
+<addon id="plugin.video.acestream_channels" name="Canales AceStream" version="1.0.0">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
     </extension>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
 </addon>
