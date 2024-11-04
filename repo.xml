@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.mis-canales-acestream" name="Mi Repositorio de Canales AceStream" version="1.0.0">
-    <extension point="xbmc.addon.repository" name="Mi Repositorio de Canales AceStream">
+<addon id="plugin.video.acestream_channels.zip" name="Repository of Canales AceStream" version="1.0.0">
+    <extension point="xbmc.addon.repository" name="Acestream Channels Repository">
         <info>
             <provides>video</provides>
         </info>
-        <addon id="plugin.video.acestream_channels" version="1.0.0" sig="xxxxxxxxxxxxxxxx">
+        <addon id="plugin.video.acestream_channels.zip" version="1.0.0" sig="xxxxxxxxxxxxxxxx">
             <requires>
                 <import addon="xbmc.addon" version="12"/>
             </requires>
